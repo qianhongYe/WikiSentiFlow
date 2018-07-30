@@ -1,0 +1,5 @@
+geopandas
+ipywidgets
+matplotlib
+pandas
+quilt
