@@ -1,0 +1,13 @@
+name: wikisentiflow-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - geopandas
+  - ipywidgets
+  - matplotlib
+  - pandas
+  - appmode
+  - pip:
+    - quilt
