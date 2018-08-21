@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This widget is used to show the changes of sentiment scores for Wikipedia entities (concepts) with time. It shows 25%, 50% (median), 75% quantile of sentiment score for each month to present the sentiment distribution.
+This widget is used to show the changes of sentiment scores for Wikipedia entities (concepts) over time. It shows 25%, 50% (median), 75% quantile of sentiment score for each month to present the sentiment distribution.
 
 Wikipedia entities contains entities in Wikipedia Article and Wikipedia Talk. Talk page is an area for editors to discuss about corresponding article, which can be visited from upper left side of article page.
 
@@ -42,10 +42,13 @@ And the shadows cover 25% to 75% quantile of the scores.
 
 If rolling average is ticked, then the shadows and red line refer to rolling average of 25%, 50%, 75% quantile.
 
+In the bottom you will get the data characteristics for the current run.
+
 The time is splited with month as unit.
 
 ## Run it locally
 
-If you want to run it locally, you can download dataset in the following link.
+If you want to run it locally, you need to install libraries listed in environment.yml with version showed in requirements.txt. Dataset can download dataset in the following link.
+
 https://www.dropbox.com/sh/mt7by5f1wgl6n3z/AACddwkFPq5lPpH3ry83MgSDa?dl=0
 
