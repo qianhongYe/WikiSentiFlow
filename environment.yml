@@ -8,6 +8,5 @@ dependencies:
   - ipywidgets
   - matplotlib
   - pandas
-  - appmode
   - pip:
     - quilt
