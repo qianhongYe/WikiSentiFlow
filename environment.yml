@@ -4,9 +4,10 @@ channels:
 dependencies:
   - python
   - numpy
-  - geopandas
-  - ipywidgets
   - matplotlib
   - pandas
+  - geopandas
+  - ipywidgets
+  - appmode
   - pip:
     - quilt
